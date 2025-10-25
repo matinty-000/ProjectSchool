@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Vazir', Arial, sans-serif;
-    background-image: url('./image/backgrund.jpg');
+    background-image: url('../image/backgrund.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

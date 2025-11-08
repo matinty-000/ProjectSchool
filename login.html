@@ -3,39 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ورود به گیم‌شاپ</title>
+    <meta name="description" content="ورود به حساب کاربری گیم‌شاپ - خرید و فروش اکانت بازی اورجینال">
+    <title>ورود | گیم‌شاپ</title>
     <link href="https://v1.fontapi.ir/css/Vazir" rel="stylesheet">
     <link rel="stylesheet" href="./css/login.css">
+    <link rel="icon" href="./image/favicon.ico" type="image/x-icon">
 </head>
 <body>
 
-    <header>
+    <header class="header">
         <div class="logo">
             <h1>گیم‌شاپ</h1>
         </div>
-        <nav>
+        <nav class="nav">
             <ul>
                 <li><a href="index.html">خانه</a></li>
                 <li><a href="about.html">درباره ما</a></li>
-                <li><a href="login.html">ورود</a></li>
+                <li><a href="login.html" class="active">ورود / ثبت‌نام</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="login">
-        <div class="overlay">
-            <p class="title">ورود به حساب کاربری</p>
-            <form class="login-form">
-                <p class="placeholder-text">نام کاربری:</p>
-                <input type="text" id="username" placeholder="نام کاربری خود را وارد کنید" required>
-                
-                <p class="placeholder-text">رمز عبور:</p>
-                <input type="password" id="password" placeholder="رمز عبور خود را وارد کنید" required>
-                
-                <button type="submit" class="btn">ورود</button>
+    <section class="login-section">
+        <div class="login-container">
+            <h2>ورود به حساب کاربری</h2>
+            <form class="login-form" onsubmit="event.preventDefault(); alert('ورود با موفقیت انجام شد!');">
+                <div class="input-group">
+                    <label for="username">نام کاربری</label>
+                    <input type="text" id="username" placeholder="مثال: gamer123" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="password">رمز عبور</label>
+                    <input type="password" id="password" placeholder="••••••••" required>
+                </div>
+
+                <div class="options">
+                    <label><input type="checkbox" id="remember"> مرا به خاطر بسپار</label>
+                    <a href="#" class="forgot-pass">رمز عبور را فراموش کردید؟</a>
+                </div>
+
+                <button type="submit" class="btn primary">ورود</button>
             </form>
-            <p>حساب کاربری ندارید؟ <a href="#">ثبت‌نام کنید</a></p>
+
         </div>
     </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>گیم‌شاپ</h3>
+                <p>معتبرترین فروشگاه خرید و فروش اکانت بازی در ایران</p>
+            </div>
+            <div class="footer-section">
+                <h3>لینک‌های سریع</h3>
+                <ul>
+                    <li><a href="index.html">خانه</a></li>
+                    <li><a href="about.html">درباره ما</a></li>
+                    <li><a href="contact.html">تماس با ما</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>پشتیبانی</h3>
+                <p>تلگرام: <a href="https://t.me/GameShopSupport" target="_blank">@GameShopSupport</a></p>
+                <p>ایمیل: support@gameshop.ir</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© ۱۴۰۴ گیم‌شاپ. تمامی حقوق محفوظ است.</p>
+        </div>
+    </footer>
+
 </body>
 </html>

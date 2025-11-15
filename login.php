@@ -10,19 +10,7 @@
     <link rel="icon" href="./image/favicon.ico" type="image/x-icon">
 </head>
 <body>
-
-    <header class="header">
-        <div class="logo">
-            <h1>گیم‌شاپ</h1>
-        </div>
-        <nav class="nav">
-            <ul>
-                <li><a href="index.html">خانه</a></li>
-                <li><a href="about.html">درباره ما</a></li>
-                <li><a href="login.html" class="active">ورود / ثبت‌نام</a></li>
-            </ul>
-        </nav>
-    </header>
+    <?php include 'heder.php';?>
 
     <section class="login-section">
         <div class="login-container">
@@ -48,31 +36,7 @@
 
         </div>
     </section>
-
-    <footer class="footer">
-        <div class="footer-content">
-            <div class="footer-section">
-                <h3>گیم‌شاپ</h3>
-                <p>معتبرترین فروشگاه خرید و فروش اکانت بازی در ایران</p>
-            </div>
-            <div class="footer-section">
-                <h3>لینک‌های سریع</h3>
-                <ul>
-                    <li><a href="index.html">خانه</a></li>
-                    <li><a href="about.html">درباره ما</a></li>
-                    <li><a href="contact.html">تماس با ما</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h3>پشتیبانی</h3>
-                <p>تلگرام: <a href="https://t.me/GameShopSupport" target="_blank">@GameShopSupport</a></p>
-                <p>ایمیل: support@gameshop.ir</p>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>© ۱۴۰۴ گیم‌شاپ. تمامی حقوق محفوظ است.</p>
-        </div>
-    </footer>
+    <?php include 'footer.php';?>
 
 </body>
 </html>

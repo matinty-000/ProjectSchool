@@ -22,32 +22,6 @@
         </div>
     </section>
 
-    <section class="categories">
-        <h2>دسته‌بندی بازی‌ها</h2>
-        <div class="category-grid">
-            <div class="category-card">
-                <div class="icon">🎮</div>
-                <h3>PC</h3>
-                <p>والورانت، CS2، دوتا 2</p>
-            </div>
-            <div class="category-card">
-                <div class="icon">🎮</div>
-                <h3>PlayStation</h3>
-                <p>FIFA، GTA، God of War</p>
-            </div>
-            <div class="category-card">
-                <div class="icon">🎮</div>
-                <h3>Xbox</h3>
-                <p>Forza، Halo، Call of Duty</p>
-            </div>
-            <div class="category-card">
-                <div class="icon">📱</div>
-                <h3>موبایل</h3>
-                <p>پابجی، کالاف دیوتی، کلش</p>
-            </div>
-        </div>
-    </section>
-
     <section id="products" class="featured-products">
         <h2>محصولات ویژه</h2>
         <div class="product-grid">
@@ -130,13 +104,6 @@
             </div>
 
             <div class="product-card">
-                <img src="./image/overwatch2.png" alt="اکانت Overwatch Grandmaster">
-                <h3>Overwatch 2 (GM)</h3>
-                <p class="price">۴۵۰,۰۰۰ تومان <span class="old-price">۶۸۰,۰۰۰</span></p>
-                <a href="#" class="btn">خرید</a>
-            </div>
-
-            <div class="product-card">
                 <img src="./image/minecraft.jpg" alt="اکانت Minecraft Premium">
                 <h3>Minecraft Premium</h3>
                 <p class="price">۱۸۰,۰۰۰ تومان <span class="old-price">۲۵۰,۰۰۰</span></p>
@@ -171,12 +138,6 @@
                 <a href="#" class="btn">خرید</a>
             </div>
 
-            <div class="product-card">
-                <img src="./image/rust.webp" alt="اکانت Rust">
-                <h3>Rust (2000+ Hours)</h3>
-                <p class="price">۴۳۰,۰۰۰ تومان <span class="old-price">۶۲۰,۰۰۰</span></p>
-                <a href="#" class="btn">خرید</a>
-            </div>
         </div>
     </section>
     <?php include 'footer.php';?>
